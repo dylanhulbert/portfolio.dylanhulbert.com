@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
+
 import Navigation from './pages/Navigation'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
@@ -9,7 +10,7 @@ import Footer from './pages/Footer'
 export default function App() {
   return (
     <div>
-      <Navigation />
+    <Navigation />
     
   <Switch>
     <Route exact path="/" component={About} />
