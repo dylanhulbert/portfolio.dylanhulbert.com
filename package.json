@@ -1,19 +1,8 @@
 {
-  "name": "portfolio.dylanhulbert.com",
+  "name": "portfolio-dylanhulbert",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "bootstrap": "^4.5.0",
-    "mdbootstrap": "^4.19.0",
-    "mdbreact": "^4.27.0",
-    "react": "^16.13.1",
-    "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
-  },
+  "description": "Dylan Hulbert",
+  "private": false,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -34,5 +23,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.5.0",
+    "gh-pages": "^2.1.1",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.4.1"
   }
 }
