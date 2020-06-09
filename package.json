@@ -30,6 +30,7 @@
     "bootstrap": "^4.5.0",
     "gh-pages": "^2.1.1",
     "jquery": "^3.5.1",
+    "mdbreact": "^4.27.0",
     "popper.js": "^1.16.1",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.1",
