@@ -6,9 +6,9 @@ export default function Navigation() {
   return (
 
     <div>
-      
-      <Navbar expand="lg" variant="primary" bg="dark">
-        <Link class="nav-link" to="/"><div class="text-light">Dylan Hulbert</div></Link>
+
+      <Navbar expand="lg"  bg="dark">
+        <Link class="nav-link" to="/"><div class="text-light"><h4>Dylan Hulbert</h4></div></Link>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <Link class="nav-link" to="/portfolio"><div class="text-light">Portfolio</div></Link>
