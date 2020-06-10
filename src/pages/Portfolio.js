@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './style.css';
 
 export default function Portfolio() {
   return (
 
+    
     <div>
 
       <section id="portfolio">
@@ -42,11 +44,11 @@ export default function Portfolio() {
                 A sample of the work I've completed as part of the program:
               </p>
             </div>  
-            <div className="col-lg-12">
+            <div className="col-lg-12 text-dark">
               <div className="row">
                 <div className="col-lg mb-4">
                   <div className="card h-100 text-center text-dark">
-                    <a href="https://dylanhulbert.github.io/project-01" target="_card1"><img className="card-img-top p-2" src="assets/img/1.png" alt="Screenshot of Explore Cascadia Homepage" /></a>
+                    <a href="https://dylanhulbert.github.io/project-01" target="_card1" className="link"><img className="card-img-top p-2" src="/img/1.png" alt="Screenshot of Explore Cascadia Homepage" /></a>
                     <div className="card-body">
                       <h4 className="card-title">Explore Cascadia</h4>
                       <h6 className="card-subtitle mb-2"><a href="https://github.com/dylanhulbert/project-01" target="_card1p">Project One <i className="fab fa-github" /></a></h6>
@@ -56,7 +58,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col-lg mb-4">
                   <div className="card h-100 text-center text-dark">
-                    <a href="https://hulbert-homework-11.herokuapp.com" target="_card2"><img className="card-img-top p-2" src="assets/img/2.png" alt="Screenshot of Explore Cascadia Homepage" /></a>
+                    <a href="https://hulbert-homework-11.herokuapp.com" target="_card2"><img className="card-img-top p-2" src="/img/2.png" alt="Screenshot of Explore Cascadia Homepage" /></a>
                     <div className="card-body">
                       <h4 className="card-title">Eat a Burger</h4>
                       <h6 className="card-subtitle mb-2"><a href="https://github.com/dylanhulbert/homework-11" target="_card2p">Homework 11 <i className="fab fa-github" /></a></h6>
@@ -66,7 +68,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col-lg mb-4">
                   <div className="card h-100 text-center text-dark">
-                    <a href="https://team-project-02.herokuapp.com" target="_card3"><img className="card-img-top p-2" src="assets/img/3.png" alt="Screenshot of Explore Cascadia Homepage" /></a>
+                    <a href="https://team-project-02.herokuapp.com" target="_card3"><img className="card-img-top p-2" src="/img/3.png" alt="Screenshot of Explore Cascadia Homepage" /></a>
                     <div className="card-body">
                       <h4 className="card-title">Explore Cocktails</h4>
                       <h6 className="card-subtitle mb-2"><a href="https://github.com/dylanhulbert/project-02" target="_card3p">Project Two <i className="fab fa-github" /></a></h6>

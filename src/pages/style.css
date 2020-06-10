@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+}
+
+#dylan, #portfolio, #contactMe {
+  min-height: 100vh;
+}
