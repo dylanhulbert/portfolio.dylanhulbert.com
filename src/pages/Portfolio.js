@@ -13,7 +13,7 @@ export default function Portfolio() {
             <div className="col-lg-6">
               <h1 className="mt-5">Bootcamp Portfolio</h1>
               <p>
-                Some of the technologies we've studied include:
+                In addition to React, I'm good with:
               </p>
               <div className="container">
                 <div className="row">
@@ -41,7 +41,7 @@ export default function Portfolio() {
                 </div>
               </div>
               <p>
-                A sample of the work I've completed as part of the program:
+                A sample of a few things we worked on in the bootcamp:
               </p>
             </div>  
             <div className="col-lg-12 text-dark">
