@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="col-lg-6">
         <h1 className="mt-5">Contact Me</h1>
         <p>
-          I mean, if you're bored:
+          I can be found at:
         </p><p>Email: <a href="mailto://dylan@dylanhulbert.com" style={{color: "#343a40"}}>dylan@dylanhulbert.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/dylanhulbert/" style={{color: "#343a40"}}>https://www.linkedin.com/in/dylanhulbert/</a></p>
         <p>GitHub: <a href="https://github.com/dylanhulbert" style={{color: "#343a40"}}>https://github.com/dylanhulbert</a></p>
